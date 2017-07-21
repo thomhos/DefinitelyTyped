@@ -22,6 +22,7 @@ interface Instance {
     start(): Instance;
     stop(): Instance;
     succeed(): Instance;
+    warn(): Instance;
     fail(): Instance;
     stopAndPersist(symbol?: string): Instance;
     clear(): Instance;
